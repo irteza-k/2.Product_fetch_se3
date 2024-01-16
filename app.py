@@ -6,8 +6,8 @@ import os
 app = Flask(__name__)
 
 # Replace with your AWS credentials and region
-AWS_ACCESS_KEY = 'AKIAU3SMU4N4EGMZMQ7H'
-AWS_SECRET_KEY = '9df+uaoeELTgEJjHyYrpOaOzmgHvO8xIDmK0WQyy'
+AWS_ACCESS_KEY = 'Your_key'
+AWS_SECRET_KEY = 'Your_key'
 AWS_REGION = 'ap-south-1'
 BUCKET_NAME = 'productdown'
 FILE_NAME = 'productdown.json'  # Replace with your JSON file name
